@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosea Herman - Portfolio</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/50a3ba1443.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Header with Navigation -->
+    <header class="bg-gray-800 fixed w-full z-10 shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="logo text-cyan-500 text-2xl font-bold">Herman</div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="text-gray-300 hover:text-cyan-500">Home</a></li>
+                    <li><a href="#about" class="text-gray-300 hover:text-cyan-500">About</a></li>
+                    <li><a href="#services" class="text-gray-300 hover:text-cyan-500">Services</a></li>
+                    <li><a href="#projects" class="text-gray-300 hover:text-cyan-500">Projects</a></li>
+                    <li><a href="#contact" class="text-gray-300 hover:text-cyan-500">Contact</a></li>
+                    <li><a href="resume.pdf" download class="text-cyan-500 hover:underline">Download CV</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero bg-gray-900 text-center py-20">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold">Hi, I'm <span class="text-cyan-500">Hosea Herman</span></h1>
+            <h2 class="text-2xl mt-4">Software Engineer</h2>
+            <p class="mt-4 max-w-xl mx-auto">I build exceptional digital experiences that make people's lives easier.</p>
+            <div class="social-icons flex justify-center space-x-4 mt-6">
+                <a href="https://github.com" target="_blank" class="text-gray-300 hover:text-cyan-500"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com" target="_blank" class="text-gray-300 hover:text-cyan-500"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank" class="text-gray-300 hover:text-cyan-500"><i class="fab fa-instagram"></i></a>
+            </div>
+            <a href="#contact" class="mt-6 inline-block bg-cyan-500 text-white px-6 py-2 rounded hover:bg-cyan-600">Hire Me</a>
+            <div class="hero-image mt-10">
+                <img src="/imgs/imgs.jpg" alt="Hosea Herman" class="w-40 h-40 rounded-full border-4 border-cyan-500 shadow-lg mx-auto">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about bg-gray-800 py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-10">About <span class="text-cyan-500">Me</span></h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="about-image flex-1">
+                    <img src="/imgs/about.jpg" alt="Hosea Herman" class="rounded-lg shadow-lg mx-auto">
+                </div>
+                <div class="about-text flex-1 mt-10 md:mt-0 md:ml-10">
+                    <h3 class="text-xl font-bold">Who am I?</h3>
+                    <p class="mt-4">I'm a Software Engineer. I specialize in Html, Css & Javascript.</p>
+                    <div class="about-details mt-6">
+                        <p><i class="fas fa-user text-cyan-500"></i> <strong>Name:</strong> Hosea Herman</p>
+                        <p><i class="fas fa-envelope text-cyan-500"></i> <strong>Email:</strong> hoseahermank@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt text-cyan-500"></i> <strong>Location:</strong> Nairobi, Kenya</p>
+                        <p><i class="fas fa-briefcase text-cyan-500"></i> <strong>Experience:</strong> 1 Year</p>
+                    </div>
+                    <a href="resume.pdf" download class="mt-6 inline-block bg-cyan-500 text-white px-6 py-2 rounded hover:bg-cyan-600">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, dignissimos libero dolorum officiis cumque ab, quis laboriosam amet facilis rem tempora ex. Odit id, facilis ad accusamus tenetur neque cupiditate!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, dignissimos libero dolorum officiis cumque ab, quis laboriosam amet facilis rem tempora ex. Odit id, facilis ad accusamus tenetur neque cupiditate!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-adn"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, dignissimos libero dolorum officiis cumque ab, quis laboriosam amet facilis rem tempora ex. Odit id, facilis ad accusamus tenetur neque cupiditate!</p>
+                    <a href="#">Learn more</a>
+                </div>
+        
+    
+            </div>
+    
+        </div>
+     </div>
+    <!-- Projects Section -->
+    <section id="projects" class="projects bg-gray-800 py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-10">My <span class="text-cyan-500">Projects</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="project-card ">
+                    <img src="/project.jpg" alt="Portfolio Website" class="rounded-lg">
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="project-card ">
+                    <img src="/project2.jpg" alt="Portfolio Website" class="rounded-lg">
+                    <a href="#">Learn more</a>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact bg-gray-900 py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-10">Contact <span class="text-cyan-500">Me</span></h2>
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="contact-info text-center md:text-left">
+                    <h3 class="text-xl font-bold">Get in Touch</h3>
+                    <p class="mt-4">Feel free to reach out for collaborations or just a friendly hello!</p>
+                    <div class="mt-6">
+                        <p><i class="fas fa-envelope text-cyan-500"></i> hoseahermank@gmail.com</p>
+                        <p><i class="fas fa-phone text-cyan-500"></i> +254746558165</p>
+                        <p><i class="fas fa-map-marker-alt text-cyan-500"></i> Nairobi, Kenya</p>
+                    </div>
+                </div>
+                <form class="contact-form mt-10 md:mt-0">
+                    <input type="text" placeholder="Your Name" class="w-full p-2 mb-4 border border-gray-700 rounded">
+                    <input type="email" placeholder="Your Email" class="w-full p-2 mb-4 border border-gray-700 rounded">
+                    <textarea placeholder="Your Message" class="w-full p-2 mb-4 border border-gray-700 rounded"></textarea>
+                    <button type="submit" class="bg-cyan-500 text-white px-6 py-2 rounded hover:bg-cyan-600">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Hosea Herman. All rights reserved.</p>
+            <div class="social-icons flex justify-center space-x-4 mt-4">
+                <a href="https://github.com" target="_blank" class="text-gray-300 hover:text-cyan-500"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com" target="_blank" class="text-gray-300 hover:text-cyan-500"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank" class="text-gray-300 hover:text-cyan-500"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
