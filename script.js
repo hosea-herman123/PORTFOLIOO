@@ -89,4 +89,4 @@ window.addEventListener('scroll', () => {
         const sectionHeight = section.offsetHeight;
         
         if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-            const id = section.get
+            const id = section.get}
