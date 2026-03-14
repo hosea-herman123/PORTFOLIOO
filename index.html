@@ -232,62 +232,90 @@
       </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="py-24 bg-gray-800">
-      <div class="container mx-auto px-6">
-        <div class="text-center mb-16">
-          <p class="text-cyan-400 font-medium mb-2 tracking-widest uppercase text-sm">My Work</p>
-          <h2 class="text-4xl md:text-5xl font-bold">Featured <span class="text-cyan-400">Projects</span></h2>
-          <div class="w-20 h-1 bg-gradient-to-r from-cyan-400 to-blue-600 mx-auto mt-4 rounded-full"></div>
-        </div>
+   <!-- Projects Section -->
+<section id="projects" class="py-24 bg-gray-800">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-16">
+      <p class="text-cyan-400 font-medium mb-2 tracking-widest uppercase text-sm">My Work</p>
+      <h2 class="text-4xl md:text-5xl font-bold">Featured <span class="text-cyan-400">Projects</span></h2>
+      <div class="w-20 h-1 bg-gradient-to-r from-cyan-400 to-blue-600 mx-auto mt-4 rounded-full"></div>
+    </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          <!-- React Project -->
-          <div class="project-card group relative bg-gray-900 rounded-2xl overflow-hidden border border-gray-700 hover:border-cyan-400/50 transition-all duration-500">
-            <div class="relative overflow-hidden">
-              <img src="/project.jpg" alt="React Project" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"/>
-              <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                <div class="flex gap-3">
-                  <span class="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-xs font-semibold border border-cyan-500/30">React</span>
-                  <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs font-semibold border border-blue-500/30">JavaScript</span>
-                </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+
+      <!-- React Project -->
+      <a href="https://github.com/hosea-herman123/eventapp-react" target="_blank">
+        <div class="project-card group relative bg-gray-900 rounded-2xl overflow-hidden border border-gray-700 hover:border-cyan-400/50 transition-all duration-500 cursor-pointer">
+
+          <div class="relative overflow-hidden">
+            <img src="/project.jpg" alt="React Project"
+              class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"/>
+
+            <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+            <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+              <div class="flex gap-3">
+                <span class="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-xs font-semibold border border-cyan-500/30">React</span>
+                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs font-semibold border border-blue-500/30">JavaScript</span>
               </div>
-            </div>
-            <div class="p-6">
-              <h3 class="text-xl font-bold mb-2 group-hover:text-cyan-400 transition-colors">Event Management App</h3>
-              <p class="text-gray-400 mb-4 text-sm">A comprehensive event management platform built with React featuring real-time updates and responsive design.</p>
-              <a href="https://github.com/hosea-herman123/eventapp-react.git" target="_blank" class="inline-flex items-center text-cyan-400 font-semibold hover:text-cyan-300 transition-colors group/link">
-                <span>View Project</span>
-                <i class="fas fa-external-link-alt ml-2 transform group-hover/link:translate-x-1 transition-transform"></i>
-              </a>
             </div>
           </div>
 
-          <!-- Flutter Project -->
-          <div class="project-card group relative bg-gray-900 rounded-2xl overflow-hidden border border-gray-700 hover:border-cyan-400/50 transition-all duration-500">
-            <div class="relative overflow-hidden">
-              <img src="/project2.jpg" alt="Flutter Project" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"/>
-              <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                <div class="flex gap-3">
-                  <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs font-semibold border border-blue-500/30">Flutter</span>
-                  <span class="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-xs font-semibold border border-cyan-500/30">Dart</span>
-                </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2 group-hover:text-cyan-400 transition-colors">
+              Event Management App
+            </h3>
+
+            <p class="text-gray-400 mb-4 text-sm">
+              A comprehensive event management platform built with React featuring real-time updates and responsive design.
+            </p>
+
+            <p class="text-cyan-400 font-semibold">
+              View on GitHub →
+            </p>
+          </div>
+
+        </div>
+      </a>
+
+      <!-- Flutter Project -->
+      <a href="https://github.com/hosea-herman123/flutter" target="_blank">
+        <div class="project-card group relative bg-gray-900 rounded-2xl overflow-hidden border border-gray-700 hover:border-cyan-400/50 transition-all duration-500 cursor-pointer">
+
+          <div class="relative overflow-hidden">
+            <img src="/project2.jpg" alt="Flutter Project"
+              class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"/>
+
+            <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+            <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+              <div class="flex gap-3">
+                <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs font-semibold border border-blue-500/30">Flutter</span>
+                <span class="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-xs font-semibold border border-cyan-500/30">Dart</span>
               </div>
             </div>
-            <div class="p-6">
-              <h3 class="text-xl font-bold mb-2 group-hover:text-cyan-400 transition-colors">Mobile Application</h3>
-              <p class="text-gray-400 mb-4 text-sm">Cross-platform mobile application developed with Flutter, delivering native performance on both iOS and Android.</p>
-              <a href="https://github.com/hosea-herman123/flutter.git" target="_blank" class="inline-flex items-center text-cyan-400 font-semibold hover:text-cyan-300 transition-colors group/link">
-                <span>View Project</span>
-                <i class="fas fa-external-link-alt ml-2 transform group-hover/link:translate-x-1 transition-transform"></i>
-              </a>
-            </div>
           </div>
+
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2 group-hover:text-cyan-400 transition-colors">
+              Mobile Application
+            </h3>
+
+            <p class="text-gray-400 mb-4 text-sm">
+              Cross-platform mobile application developed with Flutter delivering native performance on Android and iOS.
+            </p>
+
+            <p class="text-cyan-400 font-semibold">
+              View on GitHub →
+            </p>
+          </div>
+
         </div>
-      </div>
-    </section>
+      </a>
+
+    </div>
+  </div>
+</section>
 
     <!-- Contact Section -->
 <section id="contact" class="py-24 bg-gray-900 relative">
